@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['retail-product-customer']
+
+roboflow:
+  workspace: soufiane-lamchoudi
+  project: rpc-xfdms
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/soufiane-lamchoudi/rpc-xfdms/1
